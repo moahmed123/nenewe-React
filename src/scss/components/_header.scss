@@ -1,0 +1,88 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+header {
+    // Put your header styles here
+    padding: 0;
+    margin-top: 0;
+    z-index: 22;
+    position: relative;
+    .pl-md-4, .px-md-4{
+        margin-bottom: 0!important;
+    }
+    .logo{
+        height: 35px;
+        width: 125px;
+    }
+    .dropdown{
+        top: 4px;
+    }
+    .width-header{
+        width: 40%;
+        margin-right: auto;
+    }
+    .dis-inline{       
+        display: inline-block
+    }
+    .box-cart{
+        border-right: 1px solid #ddd;
+        margin: 0 7px;
+        color: #d0e9c8;
+        position: relative;
+        left: 0;
+        width: 40px;
+        text-align: center;
+        height: 30px;
+        display: inline-block;
+        cursor: pointer;
+        .notification-cart{
+            position: absolute;
+            width: 7px;
+            height: 7px;
+            background: #ff5900;
+            border-radius: 50%;
+            left: 2px;
+        }
+        svg:not(:root).svg-inline--fa{
+            transform: translate(0px, 5px);
+        }
+    }
+    .english-style,
+    .english-style.btn-success:not(:disabled):not(.disabled):active, 
+    .english-style.btn-success:not(:disabled):not(.disabled).active, 
+    .show > .btn-success.dropdown-toggle,
+    .english-style:hover,
+    .btn-success:focus, .btn-success.focus{        
+        color: #656565;
+        border: none !important;
+        text-transform: uppercase;   
+        background-color:transparent !important;
+        box-shadow: none !important;
+        font-size: 13px;
+    }       
+    .show > .btn-success.dropdown-toggle:focus{
+        box-shadow: none !important;
+    }
+    .btn-add-restaurant,
+    .btn-add-restaurant:hover{
+        background-color: #392151;
+        font-size: 13px;
+        color: #fff;
+        margin: 0 5px;
+        letter-spacing: .6px;
+    }
+    .btn-signIn,
+    .btn-signIn:focus,
+    .btn-signIn:active{
+        background-color: transparent;
+        font-size: 13px;
+        color: #392151;
+        margin: 0 5px;
+        letter-spacing: .6px;
+        font-weight: 600;
+        border-left: 1px solid #ddd;
+        border-radius: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}

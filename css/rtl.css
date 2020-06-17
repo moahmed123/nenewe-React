@@ -1,0 +1,124 @@
+body {
+    direction: rtl;
+    text-align: right; }
+    header .btn-signIn, header .btn-signIn:focus, header .btn-signIn:active{
+        border-right: 1px solid #ddd;
+        border-left: none
+    }
+    body header .width-header {
+      width: 15%;
+      margin: 0 !important;
+      margin-left: auto !important; }
+    body .search-header .location-search-input,
+    body .search-header .location-search-input:hover,
+    body .search-header .location-search-input:active,
+    body .search-header .location-search-input:focus {     
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px; }
+    body .search-header .btn-Find-food {
+      border-radius: 10px;
+      }
+    body .search-header .autocomplete-dropdown-container {
+      position: absolute;
+      width: 45%;
+      transform: translate(70%, 0);
+      top: 78px;
+      left: 0; }
+      .restaurant-container .rest-logo-bg{
+        margin: 0 10px;
+    }
+    .container-menu .pd-l-r.col-md-8 .row:first-of-type{
+        padding-right: 15px;
+    }
+    .restaurant-container .section-popupd-top h3 {      
+      padding-left: 40px;
+      padding-right: 0;
+  }
+  .Pupops-Products-data svg:not(:root).svg-inline--fa{
+    left: 0;
+    float: left;
+  }
+  @media (max-width: 1200px) {
+    body header .width-header {
+      width: 50%; }
+    .search-header .autocomplete-dropdown-container {
+      transform: translate(73%, 0); } }
+  
+  @media (max-width: 767px) {
+    .search-header .autocomplete-dropdown-container {
+      transform: translate(77%, 0); }
+    body header .width-header {
+      width: 100%; }
+    .mobileView,
+    .mobileView:hover,
+    .mobileView:focus,
+    .mobileView:active,
+    .mobileView.btn-primary:not(:disabled):not(.disabled):active,
+    .mobileView .btn-primary:not(:disabled):not(.disabled).active,
+    .mobileView .show > .btn-primary.dropdown-toggle {
+      right: unset;
+      left: 20px; } }
+  
+  @media (max-width: 480px) {
+    body .search-header .autocomplete-dropdown-container {
+      position: absolute;
+      width: 63%;
+      transform: translate(47%, 0); } }
+  
+  @media (max-width: 1200px) {
+    .search-header .autocomplete-dropdown-container {
+      transform: translate(50%, 0); } }
+  
+  @media (min-width: 767px) {
+    body header .width-header {
+      width: 50%; }
+    .mobileView {
+      display: none; } }
+  
+  @media (max-width: 767px) {
+    .search-header .autocomplete-dropdown-container {
+      transform: translate(44%, 0); }
+    body header .width-header {
+      width: 100%; }
+    .mobileView,
+    .mobileView:hover,
+    .mobileView:focus,
+    .mobileView:active,
+    .mobileView.btn-primary:not(:disabled):not(.disabled):active,
+    .mobileView .btn-primary:not(:disabled):not(.disabled).active,
+    .mobileView .show > .btn-primary.dropdown-toggle {
+      position: absolute;
+      right: 20px;
+      top: 17px;
+      font-size: 20px;
+      padding: 0 10px;
+      background: #392151;
+      border: 1px solid #392151;
+      outline: none;
+      box-shadow: none; }
+    .hidden-mobile {
+      display: none; }
+    .hiddenmobile {
+      padding-top: 20px; } }
+  
+  @media (max-width: 480px) {
+    .search-header .headerforsite {
+      font-size: 3em; }
+    .search-header .subheader {
+      font-size: 13px; }   
+    .search-header .location-search-input, .search-header .location-search-input:hover, .search-header .location-search-input:active, .search-header .location-search-input:focus {
+      width: 65%; }
+    .search-header .autocomplete-dropdown-container {
+      position: absolute;
+      width: 64%;
+      transform: translate(11%, 0); } }
+  
+  @media (max-width: 350px) {
+    .search-header .headerforsite {
+      font-size: 2.3em; }
+    .search-header .subheader {
+      font-size: 12px;
+      padding: 0 15px; }
+    .search-header .subheadercount {
+      font-size: 11px; } }
+  

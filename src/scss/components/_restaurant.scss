@@ -1,0 +1,470 @@
+.restaurant-container{
+    box-shadow: 0 0 5px 0 #aba9ab;
+    background: #fff;
+    .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #0006;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    .Pupops-Products-data{
+        position: absolute;
+        top: 15%;
+        width: 75%;
+        background: #fafafa;
+        color: #333;
+        z-index: 9999;
+        padding: 20px;
+        left: 0;
+        margin: 0 auto;
+        display: block;
+        padding-top: 60px;
+        transform: translate(12.5%, 0%);
+        .row.header{
+            background: #e2e2e2;
+            position: absolute;
+            top: 0;
+            left: 15px;
+            right: 15px;
+            padding: 11px;
+            svg{
+                cursor: pointer;
+            }
+            p{
+                margin: 0;
+            }
+        }
+        .title-section{
+            background: #efefef;
+            padding: 10px;
+        }
+        label {            
+            width: 33.33333333%;
+            margin-bottom: 25px;
+            input[type="radio"], input[type="checkbox"] {                
+                margin: 7px;
+            }
+        }
+        .btn-add-cart Button{
+            padding: 10px 30px;
+            img{
+                margin-top: -7px;
+            }
+        }
+    }
+    .section-popupd-top {
+        padding: 20px 0 ;
+        h3{
+            font-size: 20px;
+            display: inline-block;
+            padding-right: 40px;
+        }
+        .react-numeric-input{
+            input{
+                width: 110px;
+                padding: 6px;
+            }
+        }
+        .data-product-pirce{
+            display: inline-block;
+            padding: 0 120px;
+        }
+    }
+    .breadcrumbs {
+        margin-top: 20px!important;
+        color: #686868;
+        position: absolute;
+        text-align: center;
+        a {
+            text-decoration: none;
+            color: $color-black;  
+            font-size: 15px;      
+        }
+        .main-color{
+            padding: 0 10px;
+            color: $icon-Color;
+            font-size: 13px;
+        }   
+    }
+    .active-crumb.ng-binding{
+        font-size: 15px;   
+        color: #999;
+    }
+    .rest-media .media-left {
+        padding-right: 20px;
+    }
+    .rest-logo, 
+    .rest-logo-bg {
+        border: 1px solid #e0e0e0;
+        border-radius: 3px;
+        text-align: center;
+        background-color: #fff;
+    }
+    .rest-logo-bg {
+        height: 68px;
+        .valign-helper {
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+        img {
+            width: 85px;
+            max-height: 100%;
+        }
+    }
+    .rest-media{
+        .media-heading {
+            margin-bottom: 0;
+            font-size: 24px;
+            line-height: 1;
+        }
+        .greentext {
+            color: #00a53c;
+            font-size: 14px;
+            line-height: 2;
+        }
+        .ng-binding.ng-scope{
+            color: #757575;
+            font-size: 14px;
+        }
+        .rating-image-word .smiley-rating.rating_very_good {
+            background-image: url('https://www.talabat.com/images/Talabat/rating_very_good.svg');
+        }
+        .rating-image-word .smiley-rating {       
+            width: 20px;
+            height: 20px;    
+            display: inline-block;
+            margin-top: 10p;    
+            top: 20px;
+            position: absolute;
+            top: 3px;
+            right: 90px;
+        }
+        .rating-image-word .rating-word {
+            color: #838383;
+            display: inline-block;
+        }
+        .text-75{
+            color: #757575;
+            margin: 0;
+        }
+        .payment-img img:not(.vc-icon) {
+            width: 30px;
+            height: 20px;
+        }
+        .payment-img img:not(:last-child) {
+            margin-right: 8px;
+        } 
+    } 
+    .nav-tabs{
+        margin: 0 15%;
+    }
+    .nav-tabs .nav-link.active,
+    .nav-tabs .nav-item.show .nav-link {
+        color: #323232;
+        background-color: #fff;
+        border-color: #fff #fff $icon-Color;
+        border-width: 4px;
+        border-radius: 0;
+        outline: none;
+    }
+    .nav-tabs .nav-link,
+    .nav-tabs .nav-link:active,
+    .nav-tabs .nav-link:focus,
+    .nav-tabs .nav-link:hover{
+        width: 33.3333333%;
+        color: #323232;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 0;
+        border-width: 4px;
+        outline: none;
+        padding-top: 0;
+        svg{
+            color:$icon-Color;
+            margin: 0 6px;
+            font-size: 25px;
+        }
+    }
+    .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus{
+        border-color: #fff #fff $icon-Color;
+    }
+    .container-menu{        
+        .pd-l-r{
+            padding: 0 10px;
+        }
+        .n0-pd-r{
+            padding-right: 0;
+        }
+        .inputSearch{
+            width: 50%;
+            line-height: inherit;
+            height: 40px;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.02) !important;
+            border: 1px solid #d6d6d6;
+            padding-right: 54px;
+            border-radius: 2px;
+            color: #727272;
+            font-size: 14px;
+            padding-left: 16px;
+            margin: 20px auto;
+            outline: none;
+            display: block;
+        }
+    }
+    .restaurant-drop{
+        margin-bottom: 30px;
+
+       .dis-inline{
+            display: inline-block;
+       }
+       .dis-inline .btn-success,
+       .dis-inline .btn-success:hover,
+       .dis-inline .btn-success:focus{
+            background: transparent;
+            color: #666;
+            font-size: 15px;
+            border: none;
+            outline: none;
+            box-shadow: 'none'
+       }
+       .dis-inline .btn-success:after{
+           display: none
+       }
+    }
+   
+   .box-restaurant-add{
+        
+        padding-top: 20px;
+        // padding-bottom: 20px;
+        margin-bottom: 20px;
+
+        .border-bt{
+            border-bottom: 1px solid #cecece99;  
+        }  
+        img{
+            width: 100%;
+            transform: scale(1);
+            transition: .4s all ease-in-out;
+        }
+        img:hover{
+            transform: scale(2);
+            border-radius: 3px;
+        }
+        h2{
+            font-size: 16px;
+            font-weight: 600;        
+        }
+        p,.rating-word{
+            color: #727272;
+            font-size: 12px;
+        }
+        h6{
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .rating-word{
+            display: inline-block;
+            padding: 0 4px;
+        }   
+        .icon-add-product{
+            color: #28a745;
+            font-size: 18px;
+        }    
+        .old-price{
+            text-decoration: line-through;
+            color: #757575;
+            font-size: 12px;
+        } 
+        .n0-pd{
+            padding: 0;
+        } 
+   }
+   .box-restaurant-add:hover{
+        background-color: #fafafa;
+        cursor: pointer;
+   }
+   .fixed-box{
+       position: fixed;
+       top: 25px
+   }
+   .cart-box{
+       margin: 0 30px;
+
+       
+        h3{
+            background-color: $Main-color;        
+            color: #333;
+            margin: 0;
+            padding: 15px 15px;
+            font-size: 18px;
+            span{
+                font-size: 14px;
+                padding: 0 5px;
+                color: #808080;
+            }
+        } 
+        .box-details{
+            border: 1px solid #c3c3c399;
+            border-top: none;
+            padding-bottom: 20px;
+            position: relative; 
+
+            //tabs For nav 
+            .nav-tabs{
+                margin: 0;                
+                .nav-link{
+                    font-size: 14px;
+                    padding: 7px;
+                    color: #adadad !important;
+                }
+                .nav-link.active{
+                    color: #333 !important;
+                }
+            }
+            .tab-content{
+                ul{
+                    padding: 0 10px;
+                    padding-top: 15px;
+                    margin: 0;
+                    list-style: none;
+                    li{
+                        width: 100%;
+                        float: left;
+                        p{
+                            font-size: 15px;
+                            color: #333;
+                            display: inline-block;    
+                            width: 70%;
+                            .count-order{
+                                width: 25px;
+                                background: #d0eac8;
+                                color: #2d2d2d;
+                                text-align: center;
+                                border-radius: 3px;
+                                font-size: 14px;
+                            }
+                            svg{
+                                margin: 0 7px;
+                                color: #989494;
+                                font-size: 11px;
+                                cursor: pointer;
+                            }
+                        }
+                        span{
+                            width: 30%;
+                            display: inline-block;
+                            text-align: right;
+                            svg{
+                                margin: 0 7px;
+                                color: #989494;
+                                font-size: 13px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+            .head{
+                font-size: 16px;
+                padding: 15px;
+                display: block;
+                border-bottom: 1px solid #e0e0e0;
+            } 
+            table {
+                .text-75 {
+                    color: #757575;
+                    margin: 0;
+                }
+                tbody tr td {
+                    font-size: 13px;
+                    border-top: none;
+                    padding-bottom: 3px;
+                }                             
+            }
+            .from-addComment{
+                display: block;
+                width: 100%;
+                
+                textarea{
+                    width: 96%;
+                    margin: 2%;
+                    border: 1px solid #ddd;
+                    padding: 5px 10px;
+                }
+            }  
+            .btn-success {
+                margin: 0 10%;            
+                width: 80%;
+                text-align: center;
+            }
+            .data-product{
+                background-color: #fafafa;
+                padding: 10px 10px 20px 10px;
+                .react-numeric-input{
+                    input,
+                    input:hover,
+                    input:focus{
+                        width: 90px;
+                        color: #888;
+                        outline: none;
+                    }
+                    i{
+                        background: rgb(156, 191, 145) !important;;
+                    }
+                    b{                                                
+                        border-color: transparent !important;
+                        background: transparent !important;
+                    }
+                    b:first-of-type i:last-of-type{
+                        width: 1px !important;
+                    }
+                }
+                .ng-binding{
+                    font-size: 11px;
+                    width: 130px;
+                    display: inline-block;                    
+                    transform: translate(0px, 10px);
+                    padding: 0 10px;
+                }
+                .data-product-pirce{
+                    display: inline-block;
+                    text-align: right;
+                    width: 100px;
+                }
+                .remove-product svg{
+                    font-size: 14px;
+                    color: #999;
+                    padding: 0 2px;
+                    cursor: pointer;
+                }
+                .remove-product svg:hover{
+                    color: #cc0000
+                }
+            }
+        }
+
+   }
+   .section-rate{
+       h2{
+            font-size: 20px;
+            padding: 20px;
+            span{
+                background-color: #f1f0f0;
+                padding: 7px 15px;
+                border-radius: 5px;
+            }
+       }
+       .rate{
+
+        svg:not(:root).svg-inline--fa{
+            color: #FFC107;
+        }
+       }
+   }
+}

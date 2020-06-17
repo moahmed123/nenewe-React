@@ -1,0 +1,12 @@
+
+
+@import 'global/colors'; // When Completed Site Site Global Color 
+
+//Components (Import all scss files from the components folder
+@import "./components/*";
+// @import "components/_login.scss";
+// @import "RTL/rtl"; //To Active Arabic Style 
+@import "responsive/responsive"; // Responsive File 
+
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css'; // Bootstrap Included 
+

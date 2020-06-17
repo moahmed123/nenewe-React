@@ -1,0 +1,92 @@
+@media(max-width: 1200px){ 
+    .search-header .autocomplete-dropdown-container{
+        transform: translate(50%, 0);
+    }
+}
+@media(min-width: 767px){
+    body header .width-header{
+        width:50%
+    }
+    .mobileView{
+        display: none;
+    }
+
+}
+@media(max-width: 767px){
+    .search-header .autocomplete-dropdown-container{
+        transform: translate(44%, 0);
+    }
+    body header .width-header{
+        width:100%
+    }
+    .mobileView,
+    .mobileView:hover,
+    .mobileView:focus,
+    .mobileView:active,
+    .mobileView.btn-primary:not(:disabled):not(.disabled):active,
+    .mobileView .btn-primary:not(:disabled):not(.disabled).active,
+    .mobileView .show > .btn-primary.dropdown-toggle{
+        position: absolute;
+        right: 20px;
+        top: 17px;
+        font-size: 20px;
+        padding: 0 10px;
+        background: #392151;
+        border: 1px solid #392151;
+        outline: none;
+        box-shadow:none;
+    }
+    .hidden-mobile{
+        display: none;
+    }
+    .hiddenmobile{
+        padding-top: 20px;
+    }
+    .search-header .headerforsite{
+        font-size: 3em;
+    }
+    .search-header .subheader {
+        font-size: 13px;
+    }
+    .search-header .btn-Find-food{
+        min-width: 110px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }  
+}
+
+@media(max-width: 480px){
+    .search-header {
+
+        .headerforsite{
+            font-size: 3em;
+        }
+        .subheader{ 
+            font-size:13px
+        }     
+        .location-search-input,.location-search-input:hover, .location-search-input:active, .location-search-input:focus{
+            width: 65%;
+        }
+        .autocomplete-dropdown-container {
+            position: absolute;
+            width: 64%;
+            transform: translate(11%, 0);
+        }
+    } 
+    .search-header .location-search-input, .search-header .location-search-input:hover, .search-header .location-search-input:active, .search-header .location-search-input:focus{
+        margin: 13px 0;
+    }
+   
+}
+@media (max-width: 350px){
+    .search-header .headerforsite {
+        font-size: 2.3em;
+    }
+    .search-header .subheader {
+        font-size: 12px;
+        padding: 0 15px;
+    }
+    .search-header .subheadercount {
+        font-size: 11px;
+    }    
+}

@@ -1,0 +1,83 @@
+body{
+    direction: rtl;
+    text-align: right;
+    header {
+        .width-header {
+            width: 15%;
+            margin: 0 !important;
+            margin-left: auto !important;                        
+        }
+    } 
+
+    .search-header {
+        .location-search-input,
+        .location-search-input:hover,
+        .location-search-input:active,
+        .location-search-input:focus{
+            border-radius: 0;               
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .btn-Find-food{
+            border-radius: 10px;   
+            border-bottom-right-radius: 0px;
+            border-top-right-radius: 0px;
+
+        }
+        .autocomplete-dropdown-container{
+            position: absolute;
+            width: 45%;
+            transform: translate(70%, 0);
+            top: 78px;
+            left: 0;
+        }
+    }
+    
+    .restaurant-container .rest-logo-bg{
+        margin: 0 10px;
+    }
+    .container-menu .pd-l-r.col-md-8 .row:first-of-type{
+        padding-right: 15px;
+    }
+    .restaurant-container .section-popupd-top h3 {      
+      padding-left: 40px;
+      padding-right: 0;
+  }
+  .Pupops-Products-data svg:not(:root).svg-inline--fa{
+    left: 0;
+    float: left;
+  }
+}
+@media(max-width: 1200px){
+    body header .width-header{
+        width:50%
+    }
+    .search-header .autocomplete-dropdown-container{
+        transform: translate(73%, 0);
+    }
+}
+@media(max-width: 767px){
+    .search-header .autocomplete-dropdown-container{
+        transform: translate(77%, 0);
+    }
+    body header .width-header{
+        width:100%
+    }
+    .mobileView,
+    .mobileView:hover,
+    .mobileView:focus,
+    .mobileView:active,
+    .mobileView.btn-primary:not(:disabled):not(.disabled):active,
+    .mobileView .btn-primary:not(:disabled):not(.disabled).active,
+    .mobileView .show > .btn-primary.dropdown-toggle{        
+        right: unset;
+        left: 20px;        
+    }
+}
+@media(max-width: 480px){
+    body .search-header .autocomplete-dropdown-container {
+        position: absolute;
+        width: 63%;
+        transform: translate(47%, 0);
+    }
+}
